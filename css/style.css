@@ -1,11 +1,25 @@
 img {
 	width:150px;height:160px;
-	border: 6px solid#33CCFF;
+	border: 6px solid#110000;
+	border-radius:10px;
 }	
 h1 {
-	color: #33CCFF;
-	font-family: "Times New Roman", Times, serif;
+	color: #110000;
+	font-family: "Times New Roman", sans-serif;
 }
 .color-link{
-	color:#33CCFF;
+	color:#110000;
+}
+.table1,.table1 td, .table1 th {
+  border-collapse: collapse;
+  width: 50%;
+ border-collpase: collpase;
+	front-family:"Times New Roman",sans-serif;
+	padding: 8px;
+	border: 6px solid #110000;
+}
+body{
+  background-image: url("../assets/images/br.jpg");
+  background-size: cover;
+  background-position: center;
 }
