@@ -1,0 +1,11 @@
+img {
+	width:150px;height:160px;
+	border: 6px solid#33CCFF;
+}	
+h1 {
+	color: #33CCFF;
+	font-family: "Times New Roman", Times, serif;
+}
+.color-link{
+	color:#33CCFF;
+}
