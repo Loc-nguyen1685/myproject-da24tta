@@ -3,10 +3,10 @@ const productList = [
     {id: "02", name: "Hạt Giống Hoa Cúc Lá Nhám Cắt Cành Hồng Kép", price:350000, image:"../assets/images/hoacuc.jpg", productLink:"https://hatgiongphuongnam.com/hat-giong-hoa-152.html"},
     {id: "03", name: "Hoa Tulip Hà Lan", price:250000, image:"../assets/images/rose.jpg", productLink:"product-detail.html"},
     {id: "04", name: "Hạt giống hoa hướng dương", price:250000, image:"../assets/images/rose.jpg", productLink:""},
-    {id: "05", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"product-detail.html"},
-    {id: "06", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"product-detail.html"},
-    {id: "07", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"product-detail.html"},
-    {id: "08", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"product-detail.html"}
+    {id: "05", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"https://hatgiongphuongnam.com/hat-giong-hoa-152.htmloduct-detail.html"},
+    {id: "06", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"https://hatgiongphuongnam.com/hat-giong-hoa-152.htmloduct-detail.html"},
+    {id: "07", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"https://hatgiongphuongnam.com/hat-giong-hoa-152.htmloduct-detail.html"},
+    {id: "08", name: "Hạt giống hoa hồng Pháp", price:250000, image:"../assets/images/rose.jpg", productLink:"https://hatgiongphuongnam.com/hat-giong-hoa-152.htmloduct-detail.html"}
 ];
 function addProduct(id, name, price, image, link)
 {
