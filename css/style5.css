@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Comic Sans MS',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ffecd2,#fcb69f);
+    padding:30px;
+}
+
+h3{
+    font-size:55px;
+    color:#ff4d6d;
+    margin-bottom:35px;
+    letter-spacing:2px;
+    text-shadow:0 5px 10px rgba(0,0,0,0.15);
+}
+
+#nhapso{
+    width:100%;
+    max-width:420px;
+    background:#fff8dc;
+    border-radius:30px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+label{
+    font-size:20px;
+    font-weight:bold;
+    color:#ff6b6b;
+}
+
+input{
+    width:100%;
+    padding:14px 18px;
+    border:none;
+    outline:none;
+    border-radius:18px;
+    font-size:18px;
+    background:#ffffff;
+    border:3px solid #ffd166;
+    transition:0.3s;
+}
+
+input:focus{
+    transform:scale(1.03);
+    border-color:#ff8fab;
+}
+
+button{
+    padding:14px;
+    border:none;
+    border-radius:18px;
+    background:linear-gradient(135deg,#84fab0,#8fd3f4);
+    color:#333;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px) scale(1.03);
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+#kq{
+    margin-top:30px;
+    width:100%;
+    max-width:420px;
+    padding:22px;
+    background:#fff8dc;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    color:#ff4d6d;
+    text-align:center;
+    font-size:24px;
+    line-height:1.8;
+    display:none;
+    animation:fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@media(max-width:768px){
+
+    h3{
+        font-size:38px;
+        text-align:center;
+    }
+
+    #nhapso{
+        padding:25px;
+    }
+
+    #kq{
+        font-size:20px;
+    }
+}
